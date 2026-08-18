@@ -10,10 +10,10 @@ for(int i=0; i<n; i++)
 int min_price = 1000000;
 int profit = 0;
 for(int i=0; i<n; i++){
-if(min_price > arr[i]) 
-  min_price = arr[i];
-else if(arr[i] - min_price > profit) 
-  profit = arr[i] - min_price;
+  if(min_price > arr[i]) 
+    min_price = arr[i];
+  else if(arr[i] - min_price > profit) 
+    profit = arr[i] - min_price;
 }
 printf("Maximum profit is: %d", profit);
 }
