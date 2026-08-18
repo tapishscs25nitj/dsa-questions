@@ -1,0 +1,7 @@
+Problem 1:
+Maximum Profit Difference
+A company records its daily stock prices in an array.
+• Find the maximum possible profit that can be obtained by buying on one day and selling on
+  a later day.
+• If no profit is possible, print 0.
+• Your solution should run in O(n) time
