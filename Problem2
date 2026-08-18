@@ -1,0 +1,6 @@
+Problem 2:
+Product of Array Except Self
+Given an integer array
+• Construct another array such that each element is equal to the product of all other elements.
+• Do not use the division operator.
+• Solve the problem in linear time
